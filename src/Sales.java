@@ -1,3 +1,4 @@
+import javax.swing.JOptionPane;
 public class Sales {
 
     /*Write a program, using dialog boxes, which prompts the user to enter a quantity, price, discount(as an integer) and sales tax(as an integer).
@@ -16,4 +17,35 @@ public class Sales {
     Tax Total: $1.57
     Total Cost: $24.03
      */
-}
+    public static void main(String[] args) {
+        String price;
+        String discount;
+        String amount;
+        String salesTax;
+
+        JOptionPane.showMessageDialog(null, "please add a .0 to all whole numbers");
+
+        price = JOptionPane.showInputDialog("What is sales price?");
+        discount = JOptionPane.showInputDialog("What is discount(decimal)?");
+        amount = JOptionPane.showInputDialog("How many are you buying?");
+        salesTax= JOptionPane.showInputDialog("what is tax(decimal?");
+
+        Double.parseDouble(price);
+        Double.parseDouble(discount);
+        Double.parseDouble(amount);
+        Double.parseDouble(salesTax);
+
+        
+
+
+
+
+
+
+    }
+
+
+
+
+    }
+

@@ -15,33 +15,34 @@ public class RPGCharacter {
      The program should run using dialog boxes and the output should show ALL the character's stats including a name.
      */
     public static void main(String[] args) {
-        String Strength;
-        String Dexterity;
-        String Spirit;
-        String Wisdom;
-        String luck;
-        String firstName;
-        String Constitution;
-        String Charisma;
-        int damage;
-        int armor;
-        int spellStrength;
-        int mana;
+     String name;
+     String str;
+     String dex;
+     String wis;
+     String intel;
+     String con;
+     String cha;
+     int damage, health, mana, spellStrength;
 
+     name = JOptionPane.showInputDialog("enter your name");
+     str = JOptionPane.showInputDialog("enter your strength");
+     dex = JOptionPane.showInputDialog("enter your dexterity");
+     wis = JOptionPane.showInputDialog("enter your wisdom");
+     intel = JOptionPane.showInputDialog("enter your intelligence");
+     con= JOptionPane.showInputDialog("enter your constitution");
+     cha = JOptionPane.showInputDialog("enter your charisma");
 
+     Integer.parseInt(str);
+     Integer.parseInt(dex);
+     Integer.parseInt(intel);
+     Integer.parseInt(con);
+     Integer.parseInt(cha);
+     Integer.parseInt(wis);
 
-
-
-
-        firstName = JOptionPane.showInputDialog("enter a name");
-        Strength = JOptionPane.showInputDialog("enter Strength");
-        Dexterity = JOptionPane.showInputDialog("enter Dexterity");
-        Spirit = JOptionPane.showInputDialog("enter Spirit");
-        Wisdom = JOptionPane.showInputDialog("enter Wisdom");
-        Constitution = JOptionPane.showInputDialog("enter Constitution");
-        Charisma = JOptionPane.showInputDialog("enter Charisma");
-
-       
+     mana = wis* 10;
+     spellStrength = wis * intel;
+     damage = str* 10;
+     health = con*13;
 
 
 

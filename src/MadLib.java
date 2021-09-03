@@ -15,13 +15,13 @@ public class MadLib {
         System.out.println("Enter a noun.");
         noun = read.next();
 
-        System.out.println("Enter a verb");
+        System.out.println("Enter a adjective");
         verb = read.next();
 
         System.out.println("Enter a noun");
         nounTwo = read.next();
 
-        System.out.println("Enter a verb");
+        System.out.println("Enter a adjective");
         verbTwo = read.next();
 
         System.out.println("Once upon a time there was a little " + noun + ". The " + noun + " was very " + verb + ". Then the " + noun + " met the "
